@@ -1,0 +1,73 @@
+#grid-container {
+    float: right;
+    margin-right: 5vw;
+    box-sizing: content-box;
+    display: grid;
+    height: 45vw;
+    width: 45vw;
+    border: 1px rgba(0, 0, 0, 0.904) solid;
+  }
+
+  /* Cells */
+.cell {
+  border: 1px rgba(0, 0, 0, 0.104) solid;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+body {
+  background-color:rgba(114, 82, 3, 0.596);
+}
+
+button {
+  display:  block;
+  background-color: rgba(170, 151, 101, 0.993);
+  font-weight:  500;
+  font-size: 15px;
+  outline: none;
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 4px;
+  padding: 5% 4%;
+  width: 100%;
+  margin-bottom: 6%;
+}
+
+.size-value {
+  margin-bottom: 1%;
+  font-size: 17px;
+}
+
+.control {
+  background-color: rgba(170, 151, 101, 0.993);
+  width: 20%;
+  border: 2px solid rgb(15, 15, 15);
+  border-radius: 4px;
+  padding: 2%;
+  margin-top: 25vh;
+  height: 25vw;
+  width: 20vw;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.button-on {
+  background-color: rgba(114, 82, 3, 0.596);
+}
+
+input[type = 'color'] {
+  margin-bottom: 6%;
+  width: 100%;
+}
+
+input[type = 'range'] {
+  background: #d3d3d3;
+  width: 100%;
+  outline: none;
+}
